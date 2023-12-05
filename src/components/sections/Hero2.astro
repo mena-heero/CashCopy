@@ -1,0 +1,36 @@
+---
+import Button from "../shared/Button.astro";
+import Paragraph from "../shared/Paragraph.astro";
+
+
+
+---
+<img  class="img-hero shadow-lg" src="https://s6.imgcdn.dev/VlMkT.webp"> 
+<Paragraph className="mt-8 text-2 text-hero">
+    ابدأ بنسخ الصفقات وعيش أسلوب حياتك الذي تريده
+</Paragraph>
+<style>
+    body{
+background-image: url('https://s6.imgcdn.dev/VUo1B.webp');
+background-size: contain;
+background-repeat: no-repeat;
+    }
+
+
+    .img-hero{
+        width:100% ;
+        height: auto;
+        position: relative;
+        z-index: -1;
+        padding: 0;
+        margin: 0;
+    }
+
+    .text-hero{
+ 
+     z-index: 1;
+   
+        right: 50%;
+        top:33%;
+    }
+</style>
